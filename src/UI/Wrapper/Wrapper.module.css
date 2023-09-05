@@ -1,0 +1,29 @@
+
+
+
+
+@media(max-width:680px){
+        /* TABLET TABLET*/
+    .div{
+     
+        width: 100vw;
+        margin: 10px 0px;
+        z-index: 0;
+    
+    }
+}
+
+@media(min-width:681px){
+    /* LAPTOP LATOP*/
+
+    .div{
+        display:flex;
+        justify-content: space-between;
+        position:fixed;
+        left:15vw;
+        top:15vh;
+        z-index: 0;
+    
+    }
+    
+}
